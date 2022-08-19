@@ -1,0 +1,6 @@
+Paramiko >= 2.4.3
+scp >= 0.13.2
+pyyaml
+pyserial
+textfsm
+netmiko
