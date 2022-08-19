@@ -1,0 +1,33 @@
+{
+    "name": "BLOCKIPCODE.json",
+    "version": "1.0",
+    "author": "Walid Ismail",
+    "description": "Block an IP on firewall",
+    "command": "BLOCKIPCODE.py",
+    "dataTypeList": [
+        "thehive:case"
+    ],
+    "configurationItems": [
+        {
+            "name": "Paloalto_ip",
+            "description": "Device_IP",
+            "type": "string",
+            "multi": false,
+            "required": true
+        },
+        {
+            "name": "Paloalto_username",
+            "description": "Paloalto_Username",
+            "type": "string",
+            "multi": false,
+            "required": true
+        },
+        {
+            "name": "Paloalto_password",
+            "description": "Paloalto_Password",
+            "type": "string",
+            "multi": false,
+            "required": true
+        }
+    ]
+}
